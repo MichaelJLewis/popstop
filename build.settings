@@ -1,0 +1,15 @@
+settings = {
+		plugins = {
+        ["plugin.google.play.services"] =
+        {
+            publisherId = "com.coronalabs"
+            },
+        },
+        orientation = {
+
+                default = "portrait",
+                supported = {
+                        "portrait",
+                },
+        },
+}
