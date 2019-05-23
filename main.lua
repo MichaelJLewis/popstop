@@ -59,7 +59,7 @@ local version = 2
 local provider = "admob"
 
 -- Your application ID
-local appID = "ca-app-pub-6547176312514219/2472580682"
+local appID = ""
 
 -- Load Corona 'ads' library
 local ads = require "ads"
@@ -96,7 +96,7 @@ local sysEnv = system.getInfo("environment")
 
 -- Shows a specific type of ad
 showAd = function( adType )
-	ads.show( adType, { appID = "ca-app-pub-6547176312514219/2472580682"} )
+	ads.show( adType, { appID = ""} )
 end
 
 local function switch(t)
